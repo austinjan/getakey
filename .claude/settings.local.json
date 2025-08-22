@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir /s /b E:codegetakey)"
+      "Bash(dir /s /b E:codegetakey)",
+      "WebSearch",
+      "Bash(go get:*)",
+      "Bash(make:*)",
+      "Bash(./getakey)",
+      "Bash(./getakey version)",
+      "Bash(./getakey --help)",
+      "Bash(./build/getakey version)",
+      "Bash(./build/getakey:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
