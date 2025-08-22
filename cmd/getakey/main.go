@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "getakey/cmd"
 
 func main() {
-	fmt.Println("GetAKey application starting...")
+	cmd.Execute()
 }
